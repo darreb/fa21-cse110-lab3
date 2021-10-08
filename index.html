@@ -5,21 +5,31 @@
         <link rel="icon" 
         type="image/png" 
         href="https://www.pinclipart.com/picdir/middle/460-4608711_letter-l-png-cross-clipart.png">
+        <link rel="stylesheet" href="index.css">
+        
         <meta name = "description" content = "Lab 2 Assignment">
         <meta name = "author" content = "Darren Cheng">
         <meta name = "keywords" content = "HTML">
+        <style>
+            /*
+            Set background color for the main block
+            */
+            main{
+                background-color: bisque;
+            }
+        </style>
     </head>
     <body>
         <main>
             <header>
                 <h1>Lab 2</h1>
-                <h2>Our first HTML project </h2>
+                <h2 class="subheading">Our first HTML project </h2>
                 <span>
                     10/02/2021
                 </span>
                 <hr>
                 <section>
-                    <h2>In attendance: </h2>
+                    <h2 class="subheading">In attendance: </h2>
     
                     <ul>
                         <li><b>Darren Cheng</b></li>
@@ -31,7 +41,7 @@
             <div>
                 <hr>
                 <section>
-                    <h3>Our Meeting Will Cover:</h3>
+                    <h3 class="subheading">Our Meeting Will Cover:</h3>
                     <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu0cLEE_LQD4Ejo5js9s9TyT8ZR4jSWIScyA&usqp=CAU" alt="">
                     <ol>
                         <li>New <i>Butterfly knife</i> tricks we learned</li>
@@ -50,7 +60,7 @@
                 </section>
                 <hr>
                 <section>
-                    <h2>Unfinished Business:</h2>
+                    <h2 class="subheading">Unfinished Business:</h2>
                     <em>NOTHING</em>
                 </section>
                 <hr>
@@ -117,7 +127,7 @@
                 </footer>
             </div>
         </main>
-         <form>
+         <form style = "background-color:bisque" > 
              <fieldset>
                  <input type="checkbox" id = "check1">
                  <label for = "check1"> 1 </label>

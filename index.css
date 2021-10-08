@@ -1,3 +1,47 @@
-.subheading{
-    color: aquamarine
+section{
+    font-size: 30px
 }
+
+header{
+    font-size: 40px
+}
+
+#date{
+    font-size: .5em
+}
+
+.subheading{
+    color: #0f4c66;
+    font-size: .8em
+}
+
+ul{
+    font-size: .5em
+}
+
+ol{
+    font-size: .5em
+}
+
+em{
+    font-size: .5em
+}
+
+nav{
+    font-size: .5em
+}
+
+.imgs{
+    width:100px;
+    height:100px;
+}
+
+.video{
+    width: 320px;
+    height: 240px;
+}
+
+details{
+    width: 400px;
+}
+

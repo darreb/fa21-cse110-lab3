@@ -1,12 +1,20 @@
 section{
-    font-size: 30px
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 1px 40px 1px 40px;
 }
 
 header{
-    font-size: 40px
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    font-size: 40px;
+    margin: 10px, 10px, 10px, 10px
 }
 
 #date{
+    margin: auto;
     font-size: .5em
 }
 
@@ -24,11 +32,18 @@ ol{
 }
 
 em{
+    text-decoration:underline;
     font-size: .5em
 }
 
 nav{
-    font-size: .5em
+    border-style:dashed;
+    border-color:black;
+    border-width: 2px;
+    border-radius: 10%;
+    font-size: .5em;
+    width:500px;
+    text-align: center
 }
 
 .imgs{

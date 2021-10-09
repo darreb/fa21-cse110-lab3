@@ -1,11 +1,3 @@
-section{
-    display: inline-block;
-    font-size: 30px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 1px 40px 1px 40px;
-}
-
 
 header{
     display: inline-block;
@@ -17,11 +9,13 @@ header{
     max-height: 1000px;
     max-width: 1000px;
 }
-h1{
+
+header h1{
     width: 500px;
     position:relative;
 }
 
+/* The date on the top under the header */
 #date{
     position: absolute;
     margin: auto;
@@ -30,20 +24,29 @@ h1{
     height: 100px;
 }
 
+section{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 1px 40px 1px 40px;
+}
+
+/* The title of each section*/
 .subheading{
     color: #0f4c66;
     font-size: .8em;
     width: 500px;
-    position: relative
 }
 
-ul{
+/* Targets only the h2 subheadings */
+h2.subheading{
+    text-decoration:underline
+}
+
+/*lists are half of the heading sizes*/
+ul, ol{
     
-    font-size: .5em
-}
-
-ol{
-
     font-size: .5em
 }
 
@@ -52,7 +55,11 @@ em{
     font-size: .5em
 }
 
-nav{
+a ~ a{
+   color:chocolate 
+}
+
+ol + nav{
     border-style:dashed;
     border-color:black;
     border-width: 2px;
@@ -62,6 +69,7 @@ nav{
     text-align: center
 }
 
+/*Targets any img tags with a src*/
 img[src]{
     border-width:2px;
     border-style:double;
@@ -80,6 +88,10 @@ details{
     width: 400px;
 }
 
+details > p{
+    color:red
+}
+
 a:active{
     color:rgb(255,0,0)
 }
@@ -88,6 +100,7 @@ summary:hover{
     color :hsl(60,15,20)
 }
 
+/* Flexbox form*/
 form{
     display: flex;
     align-items:center;
@@ -98,3 +111,7 @@ fieldset{
     width:500px;
 }
 
+/* sets all tags in the doc to have this font */
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}

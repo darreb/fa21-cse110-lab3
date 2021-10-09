@@ -6,6 +6,7 @@ section{
     padding: 1px 40px 1px 40px;
 }
 
+
 header{
     display: inline-block;
     padding-top: 10px;
@@ -19,7 +20,8 @@ header{
 
 #date{
     margin: auto;
-    font-size: .5em
+    font-size: .5em;
+    position: absolute;
 }
 
 .subheading{
@@ -50,7 +52,9 @@ nav{
     text-align: center
 }
 
-.imgs{
+img[src]{
+    border-width:2px;
+    border-style:double;
     width:100px;
     height:100px;
 }
@@ -58,6 +62,7 @@ nav{
 .video{
     width: 320px;
     height: 240px;
+    position: relative
 }
 
 details{
